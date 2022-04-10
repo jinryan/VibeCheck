@@ -1,0 +1,18 @@
+{
+  "name": "vibecheckprof",
+  "version": "1.0.0",
+  "description": "Vibe Check Prof V1",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Ryan Jin",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.0.3"
+  },
+  "dependencies": {
+    "firebase": "^9.6.10"
+  }
+}

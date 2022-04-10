@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="create-session-div">
+      <h1>Create A Session</h1>
+      <button id="create-session-btn">Create Session</button>
+      <p id="error-message">Error message: None</p>
+    </div>
+    <div id="session-pin-div">
+      <h1 id="pin-num">Session PIN: </h1>
+      <button id="stop-session-btn">Stop Session</button>
+      <p id="num-member">Number of Students: <span>0</span></p>
+      <p>Feel free to minimize this window</p>
+    </div>
+    
+  </body>
+  <script src="index.js"></script>
+</html>

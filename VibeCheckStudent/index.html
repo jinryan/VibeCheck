@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+  <title>Student View</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container-1">
+    <h1>Enter the PIN</h1>
+    <div class="pin-submit">
+      <input type="text" id="pin-form" name="pin" placeholder="Enter PIN Here">
+      <button id="submit-pin">Enter</button>
+    </div>
+    
+    <p id="error-message">Error Message</p>
+  </div>
+  <div class="container-2">
+    <div class="button-feedback-forms">
+      <div class="feedback-button-option">
+        <p>I'm confused</p>
+        <div class="big-button" id="confuse-btn">
+          <img class="img-btn" src="assets/Confuse.png">
+        </div>
+      </div>
+      <div class="feedback-button-option">
+        <p>Speed Up</p>
+        <div class="big-button" id="fast-btn">
+          <img class="img-btn" src="assets/Fast.png">
+        </div>
+      </div>
+      <div class="feedback-button-option">
+        <p>Slow Down</p>
+        <div class="big-button" id="slow-btn">
+          <img class="img-btn" src="assets/Slow.png">
+        </div>
+      </div>
+    </div>
+    <div class="ask-question-section">
+      <input type="text" id="question-form" name="question" placeholder="Enter Question Here">
+      <div class="bottom-ask-q">
+        <p id="num-letters-remaining">50 characters remaining</p>
+        <p id="submit-question">Submit</p>
+      </div>
+
+    </div>
+    <div class="vote-question-section">
+      <ul class="question-list">
+        <li class="question">
+          <div class="question-text">
+            <p>Some question sentence</p>
+          </div>
+          <img src="assets/Upvote.png" alt="upvote" class="upvote">
+          <p class="question-upvotes">12</p>
+
+        </li>
+        <li class="question">
+          <div class="question-text">
+            <p>Some question sentence 2</p>
+          </div>
+          <img src="assets/Upvote.png" alt="upvote" class="upvote">
+          <p class="question-upvotes">12</p>
+        </li>
+        <li class="question">
+          <div class="question-text">
+            <p>Some question sentence 3</p>
+          </div>
+          <img src="assets/Upvote.png" alt="upvote" class="upvote">
+          <p class="question-upvotes">12</p>
+        </li>
+        <li class="question">
+          <div class="question-text">
+            <p>Some question sentence 4</p>
+          </div>
+          <img src="assets/Upvote.png" alt="upvote" class="upvote">
+          <p class="question-upvotes">12</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>

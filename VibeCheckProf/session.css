@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+  @font-face {
+      font-family: ProximaNova;
+      src: url('assets/Proxima Nova Font.otf')
+  }
+
+* {
+    font-family: ProximaNova;
+}
+
+body {
+    margin: 0px;
+    
+    
+}
+
+#signal {
+    max-width: 30%;
+    
+}
+
+.notifications {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #393536;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    top: 5px;
+    color: white;
+    right: 5px;
+    
+    
+}
+
+.container-1 {
+    margin: 20px;
+/*    display: none;*/
+}
+
+.confusion-signal {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background: rgb(0,255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+
+.container-2 {
+    /* display: none; */
+    margin: -20px 0px;
+    padding: 20px 0px;
+    background-color: #DCE4E6;
+}
+
+.feedback-symbol {
+    max-width: 20px;
+    max-height: 20px;
+    display: block;
+    place-items: center;
+    text-align: center;
+    align-items: center;
+/*    justify-content: center;*/
+    margin: auto;
+    vertical-align: middle;
+/*    height: 100%;*/
+}
+
+.symbol-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+.progress-bar-whole {
+    display: flex;
+    
+    background-color: white;
+    width: 200px;
+    height: 15px;
+    vertical-align: middle;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.progress-bar-part {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* width: 24%; */
+    background-color: #3993C7;
+    border-radius: 15px;
+}
+
+.feedback {
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pct {
+    margin-left: 15px;
+    
+}
+
+.question * {
+    
+}
+
+.question-text {
+    width: 80%;
+}
+.question {
+    display: flex;
+    align-items: center;
+}
+
+.upvote {
+    max-width: 16px;
+    max-height: 19px;
+    padding: 12px;
+    
+}
+
+.reset {
+    width: 150px;
+    height: 50px;
+    background-color: #393536;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.reset-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.draggable {
+-webkit-user-select: none;
+user-select: none;
+-webkit-app-region: drag;
+}

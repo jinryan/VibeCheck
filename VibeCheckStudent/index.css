@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+  @font-face {
+      font-family: ProximaNova;
+      src: url('assets/Proxima Nova Font.otf')
+  }
+
+* {
+    font-family: ProximaNova;
+}
+
+.container-1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-1 h1 {
+    text-align: center;
+}
+
+.pin-submit {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+
+body {
+    margin: 0px;
+}
+
+.container-2 {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.button-feedback-forms {
+    display: flex;
+    
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.feedback-button-option {
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.big-button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(57, 147, 199, 0.27);
+    border-radius: 25px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+
+
+.img-btn {
+    max-width: 20px;
+    max-height: 20px;
+    display: block;
+    place-items: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.ask-question-section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#question-form {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.bottom-ask-q {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-ask-q * {
+    margin: 5px
+}
+
+#submit-question {
+    background-color: #3993C7;
+    padding: 10px 10px;
+    border-radius:5px;
+    color: white;
+    cursor: pointer;
+}
+
+.vote-question-section {
+        padding: 0px;
+}
+
+.question-list {
+    padding: 0px;
+}
+
+.question-text {
+    width: 80%;
+    
+}
+.question {
+    display: flex;
+    align-items: center;
+    
+}
+
+.upvote {
+    max-width: 16px;
+    max-height: 19px;
+    padding: 12px;
+    cursor: pointer;
+    
+    
+}

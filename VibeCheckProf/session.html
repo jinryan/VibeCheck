@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+        <title></title>
+        <link rel="stylesheet" href="session.css">
+    </head>
+    <body class="draggable">
+        <div class="container-1">
+            <div class="confusion-signal">
+                <img id="signal" src="assets/Confusion_White.png">
+            </div>
+            
+            <div class="notifications">
+                <p id="notifications-num">4</p>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="feedback" id="confusion">
+                <div class="symbol-wrapper">
+                    <img class="feedback-symbol" src="assets/Confuse.png" alt="Confuse">
+                </div>
+
+                <div class="progress-bar-whole"><div class="progress-bar-part" id="confuse-progress"></div></div>
+                <p class="pct" id="confusion-pct">0%</p>
+            </div>
+            <div class="feedback" id="slow">
+                <div class="symbol-wrapper">
+                    <img class="feedback-symbol" src="assets/Slow.png" alt="Slow">
+                </div>
+
+                <div class="progress-bar-whole"><div class="progress-bar-part" id="slow-progress"></div></div>
+                <p class="pct" id="slow-pct">0%</p>
+            </div>
+
+            <div class="feedback" id="fast">
+                <div class="symbol-wrapper">
+                    <img class="feedback-symbol" src="assets/Fast.png" alt="Fast">
+                </div>
+                <div class="progress-bar-whole"><div class="progress-bar-part" id="fast-progress"></div></div>
+                <p class="pct" id="fast-pct">0%</p>
+            </div>
+
+            <div class="questions">
+                <ul class="question-list">
+                    
+                </ul>
+            </div>
+            <div class="reset-section">
+                <div class="reset">
+                    <p>Reset</p>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+    <script src="session.js"></script>
+</html>
